@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+}
+.mainimg{
+     position:relative;
+}
+.header{
+position: relative;
+   color: white;
+}
+.top{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    position: absolute;
+  top:2px;
+  left:600px;
+}
+.purpl{
+    background-color: purple;
+    padding:10px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 50px purple;
+}
+.hook{
+    background-color: rgb(99, 98, 98);
+    padding:20px;
+     border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+.after{
+    position: absolute;
+    top:30px;
+    left:200px;
+
+    
+}
+.icons{
+    display: flex;
+    gap:10px;
+    position: absolute;
+    left:900px;
+    top:20px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position:absolute;
+    top:300px;
+    left:250px;
+}
+.btn{
+    width:30%;
+    padding:15px;
+    border-radius: 30px;
+    color:white;
+    font-weight: 700;
+    background-color: #F2994A;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px #F2994A ;
+}
+.r{
+
+position: absolute;
+right:20px;
+top:10px;
+width:40%;
+}
+@media(max-width:510px){
+   
+    .hook{
+        display: none;
+    }
+    .num{
+        display: none;
+    }
+    .n{
+        display: none;
+    }
+    .both{
+        flex-direction: column-reverse;
+    }
+    .header{
+        position: relative;
+       
+    }
+    .mainimg{
+        height:650px;
+    }
+    .purpl{
+        position: absolute;
+        left:-380px;
+        top:20px;
+        
+    }
+    .logo{
+        width:50px;
+       margin-left: -150px;
+       margin-top: -30px;
+        }
+        .vec{
+           display: none;
+        }
+        .r{
+            width:70%;
+            position: absolute;
+            top:70px;
+            left:40px;
+        }
+        .left{
+            flex-direction: column;
+            width:80%;
+            position: absolute;
+            left:30px;
+            top:350px;
+           
+        }
+        .btn{
+            width:90%;
+        }
+}
