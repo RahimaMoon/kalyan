@@ -453,6 +453,131 @@ left:200px;
     display: flex;
     align-items: center;
 }
+.toper{
+    color:white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.section7{
+    margin-top: 100px;
+    background-color: black;
+    padding: 150px 0px;
+    position: relative;
+}
+.order-form {
+position: absolute;
+top:230px;
+left:500px;
+  padding: 40px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-shell {
+  max-width: 500px;
+  width: 100%;
+}
+
+.card-base {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.form-head {
+  text-align: center;
+  color: #1a2a6c;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.small-head {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.field, .area {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+
+.area {
+  height: 80px;
+  resize: none;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.item-pic {
+  width: 60px;
+  height: 45px;
+  background: #333;
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.item-info {
+  flex-grow: 1;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.item-sub {
+  font-size: 11px;
+  color: #777;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #3f51b5;
+}
+
+.flavor-text {
+  font-size: 13px;
+  color: #555;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background: #F2994A;
+  box-shadow: 0px 0px 20px #F2994A;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-weight: bold;
+ 
+}
+
 
 
 @media(max-width:510px){
@@ -575,5 +700,15 @@ left:200px;
   .frame {
     height: 180px;
   }
-        
+     .card-base {
+    padding: 20px;
+  }
+  
+  .form-head {
+    font-size: 20px;
+  }
+
+  .item-pic {
+    width: 50px;
+  }   
 }
