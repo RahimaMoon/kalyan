@@ -123,7 +123,7 @@ width:40%;
 .imtop1{
    
     position: absolute;
-    top:45px;
+    top:20px;
     left:68px;
 }
 .purp{
@@ -139,8 +139,87 @@ width:40%;
 
 }
 .ho{
+    position: absolute; 
+    left:-10px;  
+}
+.mask{
+    position: relative;
+}
+.g20{
     position: absolute;
-    
+    top:25px;
+    left:40px;
+}
+.g21{
+    position: absolute;
+    left:120px;
+    top:25px;
+}
+.g19{
+  position: absolute; 
+  left:40px; 
+}
+.g18{
+  position: absolute;
+  left:120px;  
+}
+.mask1{
+    position: relative;
+}
+.del{
+    position: absolute;
+    left:20px;
+    top:53px;
+}
+.section3{
+    margin-top: 150px;
+    position: relative;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left3{
+    position: absolute;
+    top:90px;
+    left:90px;
+}
+.right3{
+display: flex;
+flex-direction: column;
+align-items: baseline;
+justify-content: baseline;
+row-gap: 10px;
+position: absolute;
+top:-40px;
+right:300px;
+}
+.row3{
+    display: flex;
+    gap:50px;
+    align-items: baseline;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width:150px;
+}
+.nameh4{
+    padding:15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+}
+.bigplus{
+    display: flex;
+    gap:10px;
+    padding:17px;
+    color:white;
+    background-color: #F2994A;
+    border-radius: 10px;
+    align-items: center;
 }
 @media(max-width:510px){
    
@@ -198,6 +277,29 @@ width:40%;
             flex-wrap: wrap;
         }
         .section2{
+            flex-direction: column;
+        }
+        .cards{
+            flex-direction: column;
+        }
+        .section3{
+            flex-direction: column;
+            
+        }
+        .right3{
+            flex-direction: column;
+           
+            row-gap: 20px;
+            justify-content: center;
+            align-items: center;
+            left:200px;
+            top:150px;
+           
+        }
+        .row3{
+            flex-direction: column;
+        }
+        .bigplus{
             flex-direction: column;
         }
 }
