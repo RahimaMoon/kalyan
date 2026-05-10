@@ -677,12 +677,13 @@ left:500px;
 .request-submit {
   width: 100%;
   padding: 14px;
-  background: #e6915b;
+   background: #F2994A;
+  box-shadow: 0px 0px 20px #F2994A;
   color: #fff;
-  border: none;
+  border: 2px solid white;
   border-radius: 30px;
   font-weight: bold;
-  cursor: pointer;
+  
   margin-top: 10px;
 }
 .third{
