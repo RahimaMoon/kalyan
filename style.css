@@ -436,7 +436,23 @@ left:200px;
   font-size: 12px;
   font-weight: bold;
 }
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  background-color: #FCF9FF;
+    padding:20px;
+}
 
+.ic{
+    display: flex;
+    gap:10px;
+}
+.p{
+    display: flex;
+    align-items: center;
+}
 
 
 @media(max-width:510px){
