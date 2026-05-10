@@ -254,6 +254,99 @@ right:300px;
     justify-content: center;
     align-items: center;
 }
+.section5 {
+position: relative;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.wrap {
+  max-width: 1100px;
+position: absolute;
+top:150px;
+left:200px;
+}
+
+.head {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.pic {
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  padding:15px;
+}
+
+.box p {
+  font-size: 13px;
+}
+
+.feed {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  color: #222;
+  padding: 20px;
+  border-radius: 12px;
+  width: 31%;
+  margin: 1%;
+  box-sizing: border-box;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.user .pic {
+
+  border-radius: 4px;
+}
+
+.name {
+  font-weight: bold;
+  color: #4a6cf7;
+}
+
+.rate {
+  color: #f1c40f;
+  font-size: 14px;
+}
+
+.text {
+  font-size: 13px;
+}
+
+
 @media(max-width:510px){
    body{
     display: flex;
@@ -346,6 +439,21 @@ right:300px;
         }
         .red{
             height:200px;
+        }
+        .wrap{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .items{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .feed{
+           display: flex;
+            flex-direction: column;
+            row-gap: 20px;  
         }
         
 }
